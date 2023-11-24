@@ -10,8 +10,6 @@
     "typescript": "^5.3.2"
   },
   "scripts": {
-    "tsc": "tsc",
-    "type-check": "tsc --noEmit",
     "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js",
     "lint:fix": "yarn lint --fix"
   }
